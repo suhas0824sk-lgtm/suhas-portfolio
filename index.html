@@ -1,0 +1,601 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d19">
+  <meta name="author" content="Suhas S K">
+  <meta name="description" content="Suhas S K — MCA graduate, Software Engineer and Full Stack Developer. Explore projects, technical skills and professional experience.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Suhas S K | Software Developer">
+  <meta property="og:description" content="Explore my full-stack projects, experience and technical skills.">
+
+  <title>Suhas S K | Software Engineer & Full Stack Developer</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c192c'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial' font-size='28' font-weight='bold' fill='%236ce3ed'%3ESK%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a class="logo" href="#home">
+        <span class="logo-code">&lt;/&gt;</span>
+        suhas<span class="accent">.dev</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button"
+        aria-label="Open navigation menu" aria-controls="nav-menu"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-contact" href="#contact">Let's Talk ↗</a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+
+      <div class="container hero-layout">
+
+        <div class="hero-content reveal">
+          <div class="availability">
+            <span class="status-dot"></span>
+            Open to Software Development Opportunities
+          </div>
+
+          <p class="eyebrow">HELLO WORLD, I'M</p>
+
+          <h1>Suhas <span class="gradient-text">S K.</span></h1>
+
+          <h2 class="hero-role">
+            I'm a
+            <span class="role-wrap">
+              <span id="typed-text">Full Stack Developer</span><span class="cursor">|</span>
+            </span>
+          </h2>
+
+          <p class="hero-description">
+            MCA graduate and Web Developer with hands-on experience
+            building responsive websites and working with backend
+            development and databases. Passionate about solving
+            problems and developing practical software solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              Explore My Work <span>↗</span>
+            </a>
+
+            <a class="btn btn-outline"
+               href="assets/Suhas_S_K_CV.pdf"
+               download="Suhas_S_K_Resume.pdf">
+              Download Resume <span>↓</span>
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/suhas0824sk-lgtm"
+               target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+            <a href="https://www.linkedin.com/in/suhas-sk-2972702a/"
+               target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+
+            <a href="#contact">Contact ↗</a>
+          </div>
+
+          <div class="scroll-indicator">
+            <span></span> SCROLL TO EXPLORE
+          </div>
+        </div>
+
+        <!-- HERO PHOTO -->
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
+
+          <div class="profile-card">
+            <div class="profile-top">
+              <span><i class="status-dot"></i> DEVELOPER PROFILE</span>
+              <span>01 / 01</span>
+            </div>
+
+            <div class="profile-photo-area">
+              <div class="photo-placeholder" id="photo-placeholder">
+                <strong>SK</strong>
+                <small>SUHAS S K</small>
+              </div>
+
+              <img id="profile-photo"
+                   src="assets/profile.png"
+                   alt="Suhas S K, Software Developer"
+                   width="600"
+                   height="750"
+                   hidden>
+            </div>
+
+            <div class="profile-bottom">
+              <div>
+                <span class="profile-small">MEET THE DEVELOPER</span>
+                <h3>Suhas S K</h3>
+                <p>Software Engineer · Full Stack Developer</p>
+              </div>
+              <span class="profile-code">&lt;/&gt;</span>
+            </div>
+          </div>
+
+          <!-- Small decorative tags, away from face -->
+          <div class="floating-tag tag-top">
+            <span>✦</span> Full Stack Development
+          </div>
+
+          <div class="floating-tag tag-bottom">
+            <span>⌘</span> JavaScript · Node.js
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TECHNOLOGY STRIP -->
+    <div class="tech-marquee" aria-label="Technical skills">
+      <div class="marquee-track" aria-hidden="true">
+        <div class="marquee-set">
+          <span>HTML5</span><b>✦</b>
+          <span>CSS3</span><b>✦</b>
+          <span>JAVASCRIPT</span><b>✦</b>
+          <span>PYTHON</span><b>✦</b>
+          <span>NODE.JS</span><b>✦</b>
+          <span>MONGODB</span><b>✦</b>
+          <span>MYSQL</span><b>✦</b>
+          <span>GIT & GITHUB</span><b>✦</b>
+        </div>
+        <div class="marquee-set">
+          <span>HTML5</span><b>✦</b>
+          <span>CSS3</span><b>✦</b>
+          <span>JAVASCRIPT</span><b>✦</b>
+          <span>PYTHON</span><b>✦</b>
+          <span>NODE.JS</span><b>✦</b>
+          <span>MONGODB</span><b>✦</b>
+          <span>MYSQL</span><b>✦</b>
+          <span>GIT & GITHUB</span><b>✦</b>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">01 / ABOUT ME</span>
+          <h2>Beyond the <span class="gradient-text">code.</span></h2>
+          <p>My background, development journey and career goals.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-content reveal">
+            <h3>A developer focused on <span class="gradient-text">real solutions.</span></h3>
+
+            <p>
+              I'm Suhas S K, an MCA graduate from PES University
+              with a strong interest in software engineering and
+              full-stack application development.
+            </p>
+
+            <p>
+              My technical foundation includes JavaScript, Python,
+              Node.js, MySQL and MongoDB. Through academic projects,
+              I've worked on responsive web interfaces, backend
+              routes, CRUD operations and database management.
+            </p>
+
+            <p>
+              Currently working as a Web Developer at DT Gallery,
+              I develop and maintain WordPress and Shopify websites.
+              I'm seeking opportunities to contribute to software
+              products and grow as a full-stack engineer.
+            </p>
+
+            <a class="text-link" href="#contact">
+              Let's connect <span>↗</span>
+            </a>
+          </div>
+
+          <div class="about-cards reveal">
+            <article class="about-card">
+              <span class="about-icon">🎓</span>
+              <small>EDUCATION</small>
+              <h4>Master of Computer Applications</h4>
+              <p>PES University · 2024–2026</p>
+            </article>
+
+            <article class="about-card">
+              <span class="about-icon">💼</span>
+              <small>CURRENT ROLE</small>
+              <h4>Web Developer</h4>
+              <p>DT Gallery · June 2026–Present</p>
+            </article>
+
+            <article class="about-card">
+              <span class="about-icon">⌘</span>
+              <small>TECHNICAL FOCUS</small>
+              <h4>Full-Stack Development</h4>
+              <p>Frontend · Backend · Databases</p>
+            </article>
+
+            <article class="about-card">
+              <span class="about-icon">🏆</span>
+              <small>ACHIEVEMENT</small>
+              <h4>Hackathon Participant</h4>
+              <p>PES University · 2025</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">02 / TECHNICAL SKILLS</span>
+          <h2>My technical <span class="gradient-text">toolkit.</span></h2>
+          <p>Technologies and concepts I work with.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">⌘</span><span>01</span></div>
+            <h3>Frontend Development</h3>
+            <p>Building responsive, functional and user-friendly web interfaces.</p>
+            <div class="tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">⚙</span><span>02</span></div>
+            <h3>Backend Development</h3>
+            <p>Application logic, backend routing and CRUD operations.</p>
+            <div class="tags">
+              <span>Node.js</span><span>Python</span><span>CRUD</span><span>OOP</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">▤</span><span>03</span></div>
+            <h3>Database Management</h3>
+            <p>Working with relational and NoSQL databases for applications.</p>
+            <div class="tags">
+              <span>MySQL</span><span>MongoDB</span><span>DBMS</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">◇</span><span>04</span></div>
+            <h3>Tools & Platforms</h3>
+            <p>Version control, development tools and website management platforms.</p>
+            <div class="tags">
+              <span>Git</span><span>GitHub</span><span>VS Code</span><span>WordPress</span><span>Shopify</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">03 / FEATURED PROJECTS</span>
+          <h2>Things I've <span class="gradient-text">built.</span></h2>
+          <p>Selected projects from my software development journey.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- LIBRO LOOP -->
+          <article class="project-card reveal">
+            <div class="project-preview preview-libro">
+              <div class="preview-header">
+                <span>PROJECT 001 / BOOK EXCHANGE</span>
+                <span>↗</span>
+              </div>
+
+              <div class="preview-art">
+                <div class="books-illustration" aria-hidden="true">
+                  <span class="book book-one"></span>
+                  <span class="book book-two"></span>
+                  <span class="book book-three"></span>
+                  <span class="book book-four"></span>
+                </div>
+                <h3>LIBRO LOOP</h3>
+                <p>BOOK EXCHANGE PLATFORM</p>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-type">ACADEMIC PROJECT · 01</span>
+              <h3>Libro Loop</h3>
+              <p>
+                A book exchange platform for listing, browsing
+                and managing books. The academic project involved
+                web interface development and backend data handling.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                <span>Node.js</span><span>MongoDB</span>
+              </div>
+              <a class="project-link"
+                 href="https://github.com/suhas0824sk-lgtm/libro-loop"
+                 target="_blank" rel="noopener noreferrer">
+                View GitHub Repository <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- MEALWHEEL -->
+          <article class="project-card reveal">
+            <div class="project-preview preview-meal">
+              <div class="preview-header">
+                <span>PROJECT 002 / FOOD DELIVERY</span>
+                <span>↗</span>
+              </div>
+
+              <div class="preview-art">
+                <div class="meal-illustration" aria-hidden="true">
+                  <span class="meal-plate">
+                    <i class="food-item food-one"></i>
+                    <i class="food-item food-two"></i>
+                    <i class="food-item food-three"></i>
+                  </span>
+                </div>
+                <h3>MEALWHEEL</h3>
+                <p>FOOD DELIVERY APPLICATION</p>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-type">ACADEMIC PROJECT · 02</span>
+              <h3>MealWheel</h3>
+              <p>
+                A responsive food-delivery application with
+                interactive menu browsing, cart management
+                and a backend-supported ordering flow.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                <span>Node.js</span><span>MongoDB</span>
+              </div>
+              <a class="project-link"
+                 href="https://github.com/suhas0824sk-lgtm/mealwheel"
+                 target="_blank" rel="noopener noreferrer">
+                View GitHub Repository <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- COFFEE SHOP -->
+          <article class="project-card reveal">
+            <div class="project-preview preview-coffee">
+              <div class="preview-header">
+                <span>PROJECT 003 / WEBSITE</span>
+                <span>↗</span>
+              </div>
+
+              <div class="preview-art">
+                <div class="coffee-illustration" aria-hidden="true">
+                  <span class="steam steam-one"></span>
+                  <span class="steam steam-two"></span>
+                  <span class="coffee-cup"></span>
+                  <span class="coffee-handle"></span>
+                  <span class="coffee-saucer"></span>
+                </div>
+                <h3>COFFEE SHOP</h3>
+                <p>WEBSITE & RESERVATION SYSTEM</p>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-type">WEB DEVELOPMENT PROJECT · 03</span>
+              <h3>Coffee Shop Website</h3>
+              <p>
+                A responsive website with intuitive navigation,
+                a dynamic menu and a database-backed
+                reservation feature.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span>
+              </div>
+              <a class="project-link"
+                 href="https://github.com/suhas0824sk-lgtm/coffee-shop-website"
+                 target="_blank" rel="noopener noreferrer">
+                View GitHub Repository <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="projects-bottom reveal">
+          <a class="btn btn-outline"
+             href="https://github.com/suhas0824sk-lgtm"
+             target="_blank" rel="noopener noreferrer">
+            Explore All GitHub Projects ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">04 / MY JOURNEY</span>
+          <h2>Experience & <span class="gradient-text">education.</span></h2>
+          <p>My professional experience and academic background.</p>
+        </div>
+
+        <div class="experience-grid">
+          <div class="reveal">
+            <h3 class="column-title"><span>↗</span> Professional Experience</h3>
+
+            <div class="timeline">
+              <article class="timeline-item">
+                <span class="timeline-date">JUNE 2026 — PRESENT</span>
+                <h4>Web Developer</h4>
+                <strong>DT Gallery</strong>
+                <p>
+                  Develop and maintain WordPress websites and
+                  Shopify storefronts, implement frontend changes
+                  and collaborate with internal teams to deliver
+                  client requirements.
+                </p>
+              </article>
+
+              <article class="timeline-item">
+                <span class="timeline-date">MARCH 2026 — MAY 2026</span>
+                <h4>Web Developer Intern</h4>
+                <strong>DT Gallery</strong>
+                <p>
+                  Worked on WordPress layouts, frontend improvements,
+                  responsive design updates and cross-device usability.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <h3 class="column-title"><span>✦</span> Education & Achievements</h3>
+
+            <div class="timeline">
+              <article class="timeline-item">
+                <span class="timeline-date">2024 — 2026</span>
+                <h4>Master of Computer Applications</h4>
+                <strong>PES University</strong>
+                <p>Postgraduate education in computer applications and software development.</p>
+              </article>
+
+              <article class="timeline-item">
+                <span class="timeline-date">2020 — 2023</span>
+                <h4>Bachelor of Computer Applications</h4>
+                <strong>Bangalore Institute of Management Studies</strong>
+              </article>
+
+              <article class="timeline-item">
+                <span class="timeline-date">2025</span>
+                <h4>Hackathon Participant</h4>
+                <strong>PES University</strong>
+                <p>
+                  Collaborated with a team to analyze a problem
+                  statement and build a working solution
+                  in a time-bound competition.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-alt contact-section" id="contact">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <span class="section-number">05 / GET IN TOUCH</span>
+
+          <h2>
+            Let's build something
+            <span class="gradient-text">meaningful.</span>
+          </h2>
+
+          <p>
+            I'm interested in Junior Software Engineer and
+            Full Stack Developer opportunities. Feel free to
+            connect for roles, projects or professional discussions.
+          </p>
+
+          <div class="contact-actions">
+            <!-- Browser-based Gmail compose, not mailto -->
+            <a class="btn btn-primary"
+               href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=suhas0824sk%40gmail.com&amp;su=Software%20Development%20Opportunity"
+               target="_blank" rel="noopener noreferrer">
+              Compose in Gmail ↗
+            </a>
+
+            <button class="btn btn-outline"
+                    type="button" id="copy-email">
+              Copy Email Address
+            </button>
+          </div>
+
+          <p class="contact-email">suhas0824sk@gmail.com</p>
+          <p class="copy-status" id="copy-status"
+             role="status" aria-live="polite"></p>
+
+          <div class="contact-links">
+            <a href="https://github.com/suhas0824sk-lgtm"
+               target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+            <a href="https://www.linkedin.com/in/suhas-sk-2972702a/"
+               target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+
+            <a href="assets/Suhas_S_K_CV.pdf"
+               download="Suhas_S_K_Resume.pdf">Download Resume ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">
+        <span class="logo-code">&lt;/&gt;</span>
+        suhas<span class="accent">.dev</span>
+      </a>
+
+      <p>
+        © <span id="current-year">2026</span> Suhas S K.
+        Designed & developed by Suhas S K.
+      </p>
+
+      <a href="#home">Back to Top ↑</a>
+    </div>
+  </footer>
+
+  <a class="scroll-top-button" id="scroll-top-button"
+     href="#home" aria-label="Back to top" tabindex="-1">
+    ↑
+  </a>
+
+</body>
+</html>
